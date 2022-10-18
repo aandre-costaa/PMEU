@@ -4,30 +4,30 @@
 
     <item
         android:id="@+id/file"
-        android:title="@string/file"
+        android:title="@string/Ficheiro"
         app:showAsAction="always">
         <menu>
             <item
                 android:id="@+id/create_new"
-                android:title="@string/create_new"/>
+                android:title="@string/criar"/>
             <item
                 android:id="@+id/open"
-                android:title="@string/open"/>
+                android:title="@string/abrir"/>
         </menu>
     </item>
     <item
         android:id="@+id/opcao2"
-        android:title="opcao2"
+        android:title="Options"
         app:showAsAction="always">
     </item>
     <item
         android:id="@+id/opcao3"
-        android:title="opcao3"
+        android:title="Perfil"
         app:showAsAction="never">
     </item>
     <item
         android:id="@+id/opcao4"
-        android:title="opcao4"
+        android:title="Sair"
         app:showAsAction="ifRoom">
     </item>
 </menu>
